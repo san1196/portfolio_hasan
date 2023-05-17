@@ -1,0 +1,380 @@
+/* Responsive Devise For XS mobile */
+@media only screen and (max-width: 384px) {
+    .topbar .navbar-brand img {
+        width: 100px;
+    }
+    .about_area {
+        padding: 120px 0 100px 0 !important;
+    }
+    .cv_intro_area .cv_intro_text h1 {
+        font-size: 2.85rem !important;
+    }
+    .cv_intro_area .cv_intro_text h2, .cv_intro_area .cv_intro_text h1 {
+        font-size: 25px;
+    }
+    .cv_intro_area {
+        padding: 230px 0 0 0 !important;
+    }
+    .my_portfolio_isotope .filters button {
+        margin-bottom: 15px;
+    }
+    .my_portfolio_isotope .ui-group {
+        margin-bottom: 45px;
+    }
+    .client_area .owl-item {
+        padding-left: 15px;
+    }
+    .col-lg-1,.col-lg-2,.col-lg-3,.col-lg-4,.col-lg-5,.col-lg-6,.col-lg-7,.col-lg-8,.col-lg-9,.col-lg-10,.col-lg-11,.col-lg-12,
+    .contact_form_area .contact_form {
+        padding-right: 15px !important;
+    }
+    .contact_form_area .contact_form {
+        padding-left: 15px;
+    }
+    .blog_details_area .blog_details h1 {
+        font-size: 25px;
+    }
+}
+/* Responsive Devise For xs Mobile */
+@media only screen and (max-width: 320px) {
+    .topbar .navbar-brand img {
+        width: 100px;
+    }
+    .about_area {
+        padding: 120px 0 100px 0 !important;
+    }
+    .cv_intro_area .cv_intro_text h1 {
+        font-size: 2.85rem;
+    }
+    .cv_intro_area .cv_intro_text h2, .cv_intro_area .cv_intro_text h1 {
+        font-size: 25px;
+    }
+    .cv_intro_area {
+        padding: 230px 0 0 0 !important;
+    }
+    .my_portfolio_isotope .filters button {
+        margin-bottom: 15px;
+    }
+    .my_portfolio_isotope .ui-group {
+        margin-bottom: 45px;
+    }
+    .client_area .owl-item {
+        padding-left: 15px;
+    }
+    .col-lg-1,.col-lg-2,.col-lg-3,.col-lg-4,.col-lg-5,.col-lg-6,.col-lg-7,.col-lg-8,.col-lg-9,.col-lg-10,.col-lg-11,.col-lg-12,
+    .contact_form_area .contact_form {
+        padding-right: 15px !important;
+    }
+    .contact_form_area .contact_form {
+        padding-left: 15px;
+    }
+    .my_skill_area {
+        padding-bottom: 70px;
+    }
+    .blog_details_area .blog_details .posts_meta .author_meta, .blog_details_area .blog_details .posts_meta {
+        flex-basis: 100% !important;
+    }
+    .blog_details_area .blog_details h1 {
+        font-size: 25px;
+    }
+}
+/* Responsive Devise For Mobile*/
+@media only screen and (max-width: 480px) {
+    .topbar .navbar-nav {
+        background: -webkit-linear-gradient(135deg, #2a3d53 50%, #273f5b 50%);
+        background: -o-linear-gradient(135deg, #2a3d53 50%, #273f5b 50%);
+        background: linear-gradient(-45deg, #2a3d53 50%, #273f5b 50%);
+    }
+    .topbar .navbar-light .navbar-nav li a {
+        display: inline-block;
+    }
+    .navbar-light .navbar-toggler:before, .navbar-light .navbar-toggler:after {
+        content: '';
+        width: 2px;
+        height: 100%;
+        position: absolute;
+        background: #fff;
+        left: 7px;
+        -webkit-transform-origin: top;
+        -ms-transform-origin: top;
+        transform-origin: top;
+        top: 7px;
+        -webkit-transform: rotate(-50deg);
+        -ms-transform: rotate(-50deg);
+        transform: rotate(-50deg);
+        -webkit-transition: .3s;
+        -o-transition: .3s;
+        transition: .3s;
+    }
+    .navbar-light .navbar-toggler.collapsed > span {
+        width: 100%;
+    }
+    .navbar-light .navbar-toggler.collapsed:after,
+    .navbar-light .navbar-toggler.collapsed:before {
+        height: 0;
+    }
+    .navbar-light .navbar-toggler:after {
+        right: 7px;
+        left: auto;
+        -webkit-transform: rotate(50deg);
+        -ms-transform: rotate(50deg);
+        transform: rotate(50deg);
+    }
+    .cv_intro_area {
+        padding: 300px 0 0 0;
+    }
+    .about_area .about_img_box {
+        width: 80%;
+        margin: 5px auto 132px auto;
+    }
+    .about_area:after, .my_skill_area:after {
+        bottom: 0;
+        font-size: 4rem;
+    }
+    .about_area {
+        padding: 176px 0 100px 0;
+    }
+    .fun_facts_area .fun_facts_box,
+    .my_service_area .my_service_box,
+    .blog_area .blog_box {
+        margin-bottom: 30px;
+    }
+    .fun_facts_area,
+    .my_service_area,
+    .blog_area {
+        padding-bottom: 70px;
+    }
+    .my_portfolio_isotope .element-item {
+        width: 100%;
+    }
+    .contact_form_area .contact_form {
+        position: relative;
+        max-width: 100%;
+        margin-bottom: 100px;
+    }
+    .contact_form_area #map {
+        height: 400px;
+    }
+    .client_area .owl-item {
+        padding-right: 15px;
+    }
+    .col-lg-1,.col-lg-2,.col-lg-3,.col-lg-4,.col-lg-5,.col-lg-6,.col-lg-7,.col-lg-8,.col-lg-9,.col-lg-10,.col-lg-11,.col-lg-12,
+    .contact_form_area .contact_form {
+        padding-right: 30px;
+    }
+    .cv_intro_area .cv_intro_text h1 {
+        font-size: 3.85rem;
+    }
+    .cv_intro_area .cv_intro_text .cv_about_me_skill_slide span.cv_about_skills_slide {
+        max-width: 200px;
+    }
+    .blog_details_area .post_comments .row {
+        flex-direction: column;
+    }
+    .blog_details_area .post_comments_box ul li img {
+        margin-right: 0;
+        margin-bottom: 10px;
+    }
+    .blog_details_area .post_comments_box ul li {
+        flex-direction: column;
+        text-align: center;
+        align-items: center;
+    }
+    .blog_details_area .blog_details .posts_meta .author_meta, .blog_details_area .blog_details .posts_meta {
+        flex-basis: 50%;
+        flex-wrap: wrap;
+        margin-right: 0;
+        padding-left: 10px;
+    }
+    .blog_details_area .blog_details .posts_meta .author_meta {
+        margin-bottom: 10px;
+    }
+
+}
+/* Responsive Devise For Mobile */
+@media (min-width: 481px) and (max-width: 767px) {
+    .topbar .navbar-nav {
+        background: -webkit-linear-gradient(135deg, #2a3d53 50%, #273f5b 50%);
+        background: -o-linear-gradient(135deg, #2a3d53 50%, #273f5b 50%);
+        background: linear-gradient(-45deg, #2a3d53 50%, #273f5b 50%);
+    }
+    .topbar .navbar-light .navbar-nav li a {
+        display: inline-block;
+    }
+    .navbar-light .navbar-toggler:before, .navbar-light .navbar-toggler:after {
+        content: '';
+        width: 2px;
+        height: 100%;
+        position: absolute;
+        background: #fff;
+        left: 7px;
+        -webkit-transform-origin: top;
+        -ms-transform-origin: top;
+        transform-origin: top;
+        top: 7px;
+        -webkit-transform: rotate(-50deg);
+        -ms-transform: rotate(-50deg);
+        transform: rotate(-50deg);
+        -webkit-transition: .3s;
+        -o-transition: .3s;
+        transition: .3s;
+    }
+    .navbar-light .navbar-toggler.collapsed > span {
+        width: 100%;
+    }
+    .navbar-light .navbar-toggler.collapsed:after,
+    .navbar-light .navbar-toggler.collapsed:before {
+        height: 0;
+    }
+    .navbar-light .navbar-toggler:after {
+        right: 7px;
+        left: auto;
+        -webkit-transform: rotate(50deg);
+        -ms-transform: rotate(50deg);
+        transform: rotate(50deg);
+    }
+    .cv_intro_area img,
+    .blog_area .blog_box {
+        width: 80%;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    .cv_intro_area {
+        padding: 317px 0 0 0;
+    }
+    .about_area .about_img_box {
+        width: 80%;
+        margin: 5px auto 132px auto;
+    }
+    .about_area:after, .my_skill_area:after {
+        bottom: 1%;
+        font-size: 7rem;
+    }
+    .about_area {
+        padding: 176px 0 100px 0;
+    }
+    .fun_facts_area .fun_facts_box,
+    .my_service_area .my_service_box,
+    .blog_area .blog_box {
+        margin-bottom: 30px;
+    }
+    .fun_facts_area,
+    .my_service_area,
+    .blog_area {
+        padding-bottom: 70px;
+    }
+    .my_portfolio_isotope .element-item {
+        width: 100%;
+    }
+    .contact_form_area .contact_form {
+        position: relative;
+        max-width: 100%;
+        margin-bottom: 100px;
+    }
+    .contact_form_area #map {
+        height: 400px;
+    }
+    .client_area .owl-item {
+        padding-right: 15px;
+    }
+}
+/* Responsive Devise For iPad */
+@media (min-width: 768px) and (max-width: 991px) {
+    .topbar .navbar-nav {
+        background: -webkit-linear-gradient(135deg, #2a3d53 50%, #273f5b 50%);
+        background: -o-linear-gradient(135deg, #2a3d53 50%, #273f5b 50%);
+        background: linear-gradient(-45deg, #2a3d53 50%, #273f5b 50%);
+    }
+    .topbar .navbar-light .navbar-nav li a {
+        display: inline-block;
+    }
+    .navbar-light .navbar-toggler:before, .navbar-light .navbar-toggler:after {
+        content: '';
+        width: 2px;
+        height: 100%;
+        position: absolute;
+        background: #fff;
+        left: 7px;
+        -webkit-transform-origin: top;
+        -ms-transform-origin: top;
+        transform-origin: top;
+        top: 7px;
+        -webkit-transform: rotate(-50deg);
+        -ms-transform: rotate(-50deg);
+        transform: rotate(-50deg);
+        -webkit-transition: .3s;
+        -o-transition: .3s;
+        transition: .3s;
+    }
+
+    .navbar-light .navbar-toggler.collapsed > span {
+        width: 100%;
+    }
+    .navbar-light .navbar-toggler.collapsed:after,
+    .navbar-light .navbar-toggler.collapsed:before {
+        height: 0;
+    }
+    .navbar-light .navbar-toggler:after {
+        right: 7px;
+        left: auto;
+        -webkit-transform: rotate(50deg);
+        -ms-transform: rotate(50deg);
+        transform: rotate(50deg);
+    }
+    .cv_intro_area img,
+    .blog_area .blog_box {
+        width: 70%;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    .cv_intro_area {
+        padding: 317px 0 0 0;
+    }
+    .about_area .about_img_box {
+        width: 70%;
+        margin: 5px auto 132px auto;
+    }
+    .about_area:after, .my_skill_area:after {
+        bottom: 4%;
+        font-size: 12rem;
+    }
+    .about_area {
+        padding: 176px 0 100px 0;
+    }
+    .fun_facts_area .fun_facts_box,
+    .my_service_area .my_service_box,
+    .blog_area .blog_box {
+        margin-bottom: 30px;
+    }
+    .fun_facts_area,
+    .my_service_area,
+    .blog_area {
+        padding-bottom: 70px;
+    }
+    .my_portfolio_isotope .element-item {
+        width: 50%;
+    }
+}
+/* Responsive Devise For Laptop */
+@media (min-width:992px) and (max-width:1200px) {
+    .about_area:after, .my_skill_area:after {
+        bottom: 4%;
+        font-size: 150px;
+    }
+    .about_area {
+        padding: 118px 0;
+    }
+}
+@media (min-width:1201px) and (max-width:1349px) {
+    .about_area:after, .my_skill_area:after {
+        bottom: 6%;
+        font-size: 200px;
+    }
+}
+/* Responsive Devise For small Desktop */
+@media  (min-width:1350px) {
+    .about_area:after, .my_skill_area:after {
+        bottom: 6%;
+        font-size: 200px;
+    }
+}
