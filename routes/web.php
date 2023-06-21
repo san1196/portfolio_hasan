@@ -33,6 +33,9 @@ Route::post('/email/send', 'SendEmailController@send');
 Route::get('/form_upload', 'UploadFileController@index');
 Route::post('/upload_file', 'UploadFileController@upload');
 
+Route::get('/pegawai', 'PegawaiController@index');
+Route::get('/pegawai/cetak_pdf', 'PegawaiController@cetak_pdf');
+
 Route::middleware([CheckStatus::class])->group(function(){
 
     Route::get('/home', 'HomeController@index')->name('home');
