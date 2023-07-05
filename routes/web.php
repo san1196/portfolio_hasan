@@ -35,6 +35,7 @@ Route::post('/upload_file', 'UploadFileController@upload');
 
 Route::get('/pegawai', 'PegawaiController@index');
 Route::get('/pegawai/cetak_pdf', 'PegawaiController@cetak_pdf');
+Route::get('/pegawai/export_excel', 'PegawaiController@cetak_excel');
 
 Route::middleware([CheckStatus::class])->group(function(){
 
